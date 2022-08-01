@@ -1,0 +1,15 @@
+Flask
+imutils==0.5.4
+ipykernel==6.15.1
+joblib==1.1.0
+keras==2.9.0
+numpy==1.23.1
+opencv-python==4.6.0.66
+packaging==21.3
+pandas==1.4.3
+Pillow==9.2.0
+scikit-image==0.19.3
+scikit-learn==1.1.1
+tensorflow==2.9.1
+urllib3==1.26.11
+
