@@ -27,7 +27,9 @@ heroku create <app-name>
 heroku container:push web --app <app-name>
 heroku container:release web --app <app-name>
 > Note: imagename fro docker must be lowercase
-app name pan-card-tempered
+
+app name:: pan-card-tempered
+
 heroku container:push web -a <name heroku app>
 heroku container:release web -a <name heroku app>
 heroku open -a <name heroku app>
