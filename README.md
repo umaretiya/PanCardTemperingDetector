@@ -5,14 +5,14 @@ Run: Just upload image and check its tampered or not ,
 if accuracy is higher means image is less tampered and vice versa
 ### Build docker image 
 
-docker build -t pan_card:latest .
+docker build -t pan_card1:pan_card1 .
 pan_card to pan-card Docker images
 docker images 
 
-docker run -p 5000:5000 -e PORT=5000 <image id>
+docker run -p 5000:5000 -e PORT=5000 <image id> 4df51008e153
 
 docker ps 
-image name = pan_card
+image name = pan_card1
 docker stop <container_id> 
 
 docker tag flask_docker <your-docker-hub-username>/<flask-docker>
@@ -28,7 +28,7 @@ heroku container:push web --app <app-name>
 heroku container:release web --app <app-name>
 > Note: imagename fro docker must be lowercase
 
-app name:: pan-card-tempered
+app name:: pan-card-tempered // pan-card-temper
 
 heroku container:push web -a <name heroku app>
 heroku container:release web -a <name heroku app>
